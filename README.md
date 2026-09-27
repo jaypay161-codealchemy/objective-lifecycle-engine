@@ -1,334 +1,394 @@
 # Objective Lifecycle Engine
 
-> **One Objective. One Living Note. Always in Control.**
+> **One Objective. One Living System. From Intention to Evidence.**
 
-An AI-assisted, human-controlled objective management system designed to turn natural-language updates into a continuously maintained **operational record**.
+The **Objective Lifecycle Engine (OLE)** is a local-first, AI-assisted, human-controlled system for carrying an objective through its full lifecycle.
 
-Instead of scattering one objective across tasks, chats, daily notes, status trackers, and memory, the Objective Lifecycle Engine keeps the objective in **one living Markdown note** that evolves as the work evolves.
+This repository began when OLE was much simpler: one objective, one living Markdown note, operational state, a next action, AI observations, and human-confirmed closure.
 
-![One Objective. One Living Note.](assets/github/01_one_living_note.png)
+That foundation still exists.
 
----
-
-## The problem I wanted to solve
-
-Most productivity tools are good at recording tasks.
-
-Real execution is harder.
-
-An objective can become difficult to manage when:
-
-- updates are scattered across different places;
-- the real **Current Next Action** becomes unclear;
-- work is waiting on another person, approval, system, or dependency;
-- blockers and risks appear after execution has already started;
-- completed actions continue to look like pending actions;
-- future actions are shown as actionable even though their prerequisites are not complete;
-- AI recommendations become mixed with facts;
-- newer updates overwrite older context;
-- an objective looks “active” without explaining whether it is healthy, waiting, blocked, or at risk.
-
-I wanted a system that does more than store notes.
-
-I wanted the note itself to behave like an **operating record for the objective**.
+The project has now evolved into a broader objective operating model — and the newest public proof is **OLE Learning Mode**.
 
 ---
 
-## Objective
+# Latest Update — OLE Learning Mode
 
-Build a local-first Objective Lifecycle Engine that helps a human move an objective from intention to verified completion while continuously maintaining:
-
-- what the objective is;
-- what has already happened;
-- what is currently true;
-- what remains unresolved;
-- what is waiting;
-- what is blocked;
-- what depends on something else;
-- what action can actually be executed now;
-- what may require attention;
-- what evidence is still required before closure.
-
-The user should be able to speak or type naturally while the system maintains the structure.
-
----
-
-## Core idea
-
-### One objective = one living note
-
-The system does **not** create a new note every time something changes.
-
-The same objective note is continuously updated.
-
-Historical updates remain append-only.
-
-That creates a single place where the objective can be understood from beginning to end.
-
----
-
-## How the concept works
+Learning Mode started from a practical problem:
 
 ```text
-Natural human update
-        ↓
-Semantic structuring
-        ↓
-Living objective note
-        ↓
-Operational state
-        ↓
-Execution controls
-        ↓
-Truth-safe AI intelligence
-        ↓
-Human decision / action
-        ↓
-Append-only objective journey
-        ↓
+Videos
+PDFs
+Courses
+Articles
+AI chats
+Documentation
+Bookmarks
+```
+
+Information is easy to accumulate.
+
+Learning is harder.
+
+> **MORE INFORMATION ≠ MORE LEARNING**
+
+OLE Learning Mode is designed to move a learner through a visible lifecycle:
+
+```text
+Curiosity
+   ↓
+Clarify the objective
+   ↓
+Learning Contract
+   ↓
 Definition of Done
+   ↓
+Learning workspace
+   ↓
+Study / Practice / Evidence
+   ↓
+Gaps / Corrections / Review
+   ↓
+Human-confirmed completion
+   ↓
+Capability
+```
+
+---
+
+# ▶ 🎬 Watch OLE Learning Mode
+
+**OLE Learning Mode — From Curiosity to Capability**
+
+[▶ Watch OLE Learning Mode video](https://youtu.be/IiiCIhnJFHI)
+
+[![OLE Learning Mode — From Curiosity to Capability](assets/github/demo/thumb_ole_learning_mode_cover.png)](https://youtu.be/IiiCIhnJFHI)
+
+This 3-minute explainer shows how OLE moves a learning objective from raw curiosity to structured execution, evidence, and human-confirmed completion.
+The video explains the design idea. The screenshots below prove the workflow in the real application.
+
+---
+
+# Live Demo — Real Application Proof
+
+The demo uses one objective throughout:
+
+> **I want to understand the Agentic AI tech stack from a product-management perspective.**
+
+The important part is not any single screen. It is the transformation across the lifecycle.
+
+---
+
+## 1. Start naturally
+
+![Start naturally](assets/github/demo/01_start_naturally.png)
+
+I begin with a plain-language learning objective rather than manually designing a complex note or study plan.
+
+**Proof:** OLE starts from human intent.
+
+```text
+Natural language
+→ structured objective workflow
+```
+
+---
+
+## 2. Clarify before execution
+
+OLE does not immediately convert the first sentence into another passive note.
+
+It asks material questions that change how the objective should be approached.
+
+### Choose the depth
+
+![Clarify — depth](assets/github/demo/02a_clarify_depth.png)
+
+### Understand the learning source / starting context
+
+![Clarify — source type](assets/github/demo/02b_clarify_source_type.png)
+
+### Connect the learning to the product-management perspective
+
+![Clarify — product context](assets/github/demo/02c_clarify_product_context.png)
+
+### Identify the starting point
+
+![Clarify — starting point](assets/github/demo/02d_clarify_starting_point.png)
+
+### Define an immediate useful deliverable
+
+![Clarify — immediate deliverable](assets/github/demo/02e_clarify_immediate_deliverable.png)
+
+**Proof:** OLE improves the objective before execution.
+
+AI can help ask and structure the questions. The human still supplies and reviews the important truth.
+
+---
+
+## 3. Turn intent into a Learning Contract
+
+![Learning Contract](assets/github/demo/03_learning_contract.png)
+
+The clarified objective becomes a structured Learning Contract containing the learning outcome, target depth, scope, concepts, practice direction, assessment approach, and next action.
+
+**Proof:** a vague learning goal receives boundaries.
+
+```text
+"Learn Agentic AI"
         ↓
-Human-confirmed closure
+explicit learning contract
 ```
 
-![Workflow](assets/github/04_workflow.png)
+---
+
+## 4. Define what “done” actually means
+
+![Definition of Done](assets/github/demo/04_definition_of_done.png)
+
+Self-learning can continue forever unless completion is defined.
+
+OLE therefore makes the **Definition of Done** explicit and reviewable.
+
+**Proof:** completion is based on observable criteria rather than the amount of content consumed.
 
 ---
 
-## Key capabilities
+## 5. One objective. One living note.
 
-### 1. Living Objective Record
+The result of Capture is not a collection of disconnected outputs. It becomes one living Objective record.
 
-Every objective is maintained as one persistent Markdown note.
+### Learning Contract inside the Objective
 
-The note keeps:
+![Objective contract](assets/github/demo/05a_objective_contract.png)
 
-- the objective;
-- structured context;
-- Definition of Done;
-- current execution state;
-- current next action;
-- unresolved controls;
-- AI observations;
-- complete update history;
-- raw human input.
+### Why the learning matters
 
-New updates extend the story instead of replacing it.
+![Why this learning matters](assets/github/demo/05b_why_this_learning_matters.png)
 
----
+### Learning scope
 
-### 2. Append-only history
+![Learning scope](assets/github/demo/05c_learning_scope.png)
 
-A later update must never erase an earlier update.
+### Human input remains visible beside AI interpretation
 
-The Objective Journey preserves the sequence of what happened over time, including changes in state and earlier AI observations.
+![AI observation and raw capture](assets/github/demo/05d_ai_observation_raw_capture.png)
 
-This makes the system useful for:
+### Definition of Done + operational state
 
-- project review;
-- auditability;
-- retrospectives;
-- decision traceability;
-- lessons learned;
-- restarting work after a gap.
+![Definition of Done and operational state](assets/github/demo/05e_definition_of_done_operational_state.png)
+
+### Execution controls
+
+![Execution controls](assets/github/demo/05f_execution_controls.png)
+
+### AI intelligence remains explicitly unconfirmed
+
+![Objective intelligence](assets/github/demo/05g_objective_intelligence.png)
+
+**Proof:** one Objective becomes an operational record rather than a static note.
 
 ---
 
-### 3. Operational State
+## 6. Build a learning workspace around the objective
 
-An objective can be active while being in very different conditions.
+![Learning workspace](assets/github/demo/06_learning_workspace.png)
 
-The engine distinguishes execution conditions such as:
+OLE Organizer creates support structure around the main Objective so different learning truths do not collapse into one giant document.
 
-- **Ready**
-- **In Progress**
-- **Waiting**
-- **Blocked**
-- **At Risk**
-- **Review Needed**
-
-This is separate from completion status.
-
-![Operational State + Execution Control](assets/github/02_execution_control.png)
-
----
-
-### 4. Execution Controls
-
-The engine distinguishes between the objective's overall state and the action that can be executed now.
-
-It maintains:
-
-- **Current Next Action**
-- **Next Action Status**
-- **Waiting On**
-- **Dependencies**
-- **Blockers**
-- **Deferred Action**
-
-A future step is not treated as executable merely because it appears later in a sentence.
-
-Example:
+The workspace includes areas for concepts such as:
 
 ```text
-I am waiting for customer approval.
-After approval I will release the drawing.
+Learning Plan & Mastery
+Knowledge
+Practice & Evidence
+Knowledge Gaps & Mistakes
+Review & Recall
 ```
 
-The system can represent:
-
-```text
-State: waiting
-Waiting On: customer approval
-Dependency: customer approval
-Deferred Action: release the drawing
-Current Next Action: none
-```
-
-If a real follow-up action is available:
-
-```text
-Tomorrow I will follow up with the customer.
-```
-
-then the objective may still be **waiting**, while the Current Next Action is **executable**.
-
-That distinction is important in real project work.
+**Proof:** the Objective stays central while supporting learning artifacts remain organized.
 
 ---
 
-### 5. Human Truth vs AI Intelligence
+## 7. Resource ≠ Knowledge
 
-AI is useful for analysis, but an AI guess should not silently become a fact.
+![Resource is not knowledge](assets/github/demo/07a_resource_not_knowledge.png)
 
-The engine therefore separates:
+Resources can be indexed and kept available without being treated as mastered knowledge.
+
+![Managed resource index](assets/github/demo/07b_resource_index.png)
+
+This distinction matters:
 
 ```text
-Human Truth
+PDF available
 ≠
-AI Intelligence
+understood
+
+Course saved
+≠
+capability
 ```
 
-AI may surface:
+**Proof:** resource availability does not silently become learning truth.
 
-- risk candidates;
-- blocker candidates;
-- dependency candidates;
-- contradictions;
-- missing information;
-- pending decisions;
-- suggested next actions;
-- mitigation suggestions.
+---
 
-But AI Intelligence remains visibly **unconfirmed**.
+## 8. Capture real learning through Continue
 
-It does not silently:
+Learning becomes useful when OLE can preserve what actually happened during execution.
 
-- create confirmed decisions;
+### Natural learning update → structured interpretation
+
+![Continue learning interpretation](assets/github/demo/08a_continue_learning_interpretation.png)
+
+### Human review before committing the update
+
+![Review learning update](assets/github/demo/08b_continue_learning_review.png)
+
+### Objective Journey preserves the update
+
+![Objective journey update](assets/github/demo/08c_objective_journey_update.png)
+
+A learning update can contain more than “completed.”
+
+It can preserve:
+
+```text
+what I understood
+what is still unclear
+an insight
+practice
+result
+a correction
+next action
+```
+
+**Proof:** OLE records learning evidence and uncertainty rather than only activity.
+
+---
+
+## 9. AI Talk — talk to the objective, not a blank chatbot
+
+![AI Talk start](assets/github/demo/09a_ai_talk_start.png)
+
+AI Talk works with the Objective's context rather than forcing me to reconstruct the entire situation in a fresh AI conversation.
+
+![AI Talk response](assets/github/demo/09b_ai_talk_response.png)
+
+Follow-up remains connected to the same objective context.
+
+![AI Talk follow-up](assets/github/demo/09c_ai_talk_followup.png)
+
+**Proof:** AI becomes contextual reasoning support around the living Objective.
+
+---
+
+## 10. Tutor — learning assistance inside the lifecycle
+
+![OLE Tutor](assets/github/demo/10_tutor.png)
+
+Tutor provides a dedicated learning interaction while the Objective remains the organizing context.
+
+This is different from treating an AI chat itself as the permanent source of truth.
+
+**Proof:** AI can assist learning while the local Objective record remains authoritative.
+
+---
+
+# The Learning Mode Story in One View
+
+```text
+I start with a vague learning intention.
+
+OLE helps clarify it.
+
+The objective receives a Learning Contract and a Definition of Done.
+
+One living Objective note becomes the operational center.
+
+Organizer creates the learning workspace.
+
+Resources remain separate from learned knowledge.
+
+Continue captures what I actually learned and what is still unclear.
+
+AI Talk and Tutor provide contextual assistance.
+
+The objective remains local, inspectable, and human-controlled.
+```
+
+That is the current public proof of OLE Learning Mode.
+
+---
+
+# Continue. Don't Reconstruct.
+
+One of the ideas behind OLE is continuity.
+
+Returning to work after a gap should not require rebuilding the whole mental context:
+
+```text
+Where was I?
+What did I understand?
+What is still unclear?
+What should I do next?
+```
+
+The Objective should preserve enough state for the learner to continue.
+
+> **CONTINUE. DON'T RECONSTRUCT.**
+
+---
+
+# Human Truth vs AI Intelligence
+
+AI is useful for interpretation, but AI output should not silently become fact.
+
+OLE therefore keeps an explicit boundary:
+
+```text
+HUMAN-CONFIRMED TRUTH
+≠
+AI-GENERATED INTERPRETATION
+```
+
+AI may help:
+
+- clarify;
+- structure;
+- explain;
+- tutor;
+- surface gaps;
+- suggest next actions;
+- propose assessments;
+- identify risks or contradictions.
+
+But AI does not silently:
+
 - rewrite factual history;
-- change Definition of Done;
-- mark completion;
+- confirm learning on behalf of the human;
+- change the Definition of Done;
+- declare completion;
 - close the objective.
 
-![Human Truth vs AI Intelligence](assets/github/03_truth_safe_ai.png)
+---
+
+# Local-First Record
+
+The permanent record remains readable local Markdown.
+
+That allows the Objective record to remain useful even as models, interfaces, and providers change.
+
+The design goal is not to make AI the database.
+
+The design goal is to use AI as reasoning leverage around a durable human-controlled record.
 
 ---
 
-### 6. Human-controlled Definition of Done
+# Where OLE Started
 
-AI can help structure an initial Definition of Done.
-
-But completion is not automatic.
-
-The human remains responsible for:
-
-- checking completion evidence;
-- deciding whether the DoD is truly satisfied;
-- confirming final closure.
-
-This keeps the system useful for decision support without turning it into autonomous authority.
-
----
-
-## Typical user workflow
-
-### Capture
-
-Speak or type the objective naturally.
-
-### Structure
-
-The engine converts the input into a structured objective note.
-
-### Execute
-
-The note maintains current state, unresolved controls, and Current Next Action.
-
-### Continue
-
-When reality changes, update the same objective in natural language.
-
-### Detect
-
-Deterministic rules and advisory AI identify inconsistencies, missing information, risks, dependencies, or decision needs.
-
-### Act
-
-The human decides what to do.
-
-### Preserve
-
-Every update stays in the Objective Journey.
-
-### Close
-
-The objective closes only after its Definition of Done is satisfied and the human confirms completion.
-
----
-
-## Why the existing approach was insufficient
-
-A normal task list can tell me:
-
-> “Release drawing.”
-
-But real execution may actually be:
-
-```text
-Waiting for approval
-        ↓
-Follow up with customer
-        ↓
-Approval received
-        ↓
-Release drawing
-```
-
-The difference is the **lifecycle context**.
-
-The Objective Lifecycle Engine is designed to preserve that context continuously.
-
----
-
-## Where this concept can be useful
-
-The same lifecycle model can support:
-
-- project management;
-- technical coordination;
-- procurement/vendor follow-up;
-- business development;
-- job search;
-- learning objectives;
-- personal projects;
-- event planning;
-- issue resolution;
-- administrative work;
-- recurring professional objectives.
-
-The domain can change.
-
-The lifecycle pattern remains similar:
+The original version focused on the operational lifecycle:
 
 ```text
 Objective
@@ -341,154 +401,55 @@ Objective
 → Closure
 ```
 
----
+Those concepts remain relevant across Learning, Project, and Generic objectives.
 
-## Validation approach
+The system has expanded, but the foundation has not changed:
 
-I deliberately treated validation as part of the product design rather than an afterthought.
-
-The current build has been exercised through:
-
-- **110+ automated lifecycle and regression checks**;
-- semantic stress testing across multiple objective profiles;
-- AI intelligence stress testing;
-- repeated real-note continuation tests;
-- append-only history tests;
-- operational state transition tests;
-- waiting/dependency/blocker resolution tests;
-- targeted debugging using real failed note outputs.
-
-Latest acceptance evidence included:
-
-- **Semantic Stress: 41/42 checks = 97.6%**
-- **Zero timeouts**
-- separate AI Intelligence stress testing above the acceptance threshold
-- successful dependency and blocker cleanup after resolution.
-
-The goal is not to prove that AI is perfect.
-
-The goal is to build a system whose **overall behavior remains reliable even when model outputs vary**.
+> **One Objective. One Living System.**
 
 ---
 
-## System thinking behind the project
+# What This Project Has Taught Me
 
-Several principles guided the design:
+OLE has become practical work across:
 
-### Deterministic logic before AI where possible
-
-If code can safely determine something, the model should not be asked to guess it.
-
-### Human truth remains authoritative
-
-AI advises.
-
-The human owns facts, decisions, completion evidence, and closure.
-
-### History is permanent
-
-Current state may change.
-
-Historical truth should not disappear.
-
-### Current action must be executable
-
-A future action blocked by a prerequisite belongs in Deferred Action, not Current Next Action.
-
-### Local-first data
-
-Markdown remains the permanent record.
-
-The interface and AI layer can evolve without locking the objective history into a proprietary data store.
-
----
-
-## What I learned from building it
-
-This project pushed me beyond simply “using an AI API.”
-
-It required thinking about:
-
-- state machines;
+- workflow design;
+- state management;
+- project / PMO thinking;
+- learning-system design;
+- local-first architecture;
 - human-in-the-loop AI;
-- structured natural-language extraction;
 - deterministic validation;
-- prompt boundaries;
-- local-first data design;
-- append-only history;
-- regression testing;
-- semantic testing;
-- debugging from real user evidence;
-- project lifecycle thinking;
-- UX friction;
-- AI reliability vs deterministic control.
-
-The most important lesson:
-
-> **Useful AI systems need boundaries, state, evidence, and human authority — not only a good prompt.**
-
----
-
-## Outcome
-
-The result is a working foundation for an **AI-assisted Objective Operating System**.
-
-Instead of manually maintaining multiple trackers, the intended interaction becomes:
-
-> **Talk naturally → let the engine maintain state → inspect what deserves attention → decide → execute → update → close with evidence.**
-
-![Portfolio Outcome](assets/github/05_portfolio_outcome.png)
-
----
-
-## Future direction
-
-The concept can be extended further toward:
-
-- attention-oriented objective dashboards;
-- stronger closure and lessons-learned workflows;
-- migration and production-hardening tools;
-- richer time tracking;
-- calendar scheduling;
-- proactive overdue / running-out-of-time alerts;
-- Android reminder notifications;
-- deeper integration with a personal Annual Planner operating system.
-
-These are future extensions of the same core principle:
-
-> **The human works naturally. The system maintains operational clarity.**
-
----
-
-## Why I am sharing this
-
-I am using this project as a practical proof of work across:
-
-- AI-assisted project management;
-- workflow automation;
-- systems thinking;
-- local-first productivity tooling;
-- project management discipline;
+- AI model routing;
+- security boundaries;
 - testing and debugging;
-- idea-to-outcome development.
+- UX;
+- evidence and completion governance;
+- visual storytelling.
 
-I am especially interested in connecting with people working on:
+The most important lesson so far:
 
-- AI productivity systems;
-- project / PMO automation;
-- human-in-the-loop agents;
-- local-first software;
-- Obsidian workflows;
-- practical AI for professional work.
+> **Useful AI systems need state, boundaries, evidence, and human authority — not only a good prompt.**
 
 ---
 
-## Public portfolio note
+# Public Portfolio Scope
 
-This repository intentionally focuses on the **problem, concept, workflow, capabilities, validation, and outcome**.
+This repository is intentionally a public proof-of-work view.
 
-Private implementation details, credentials, API keys, and sensitive code/configuration are not included.
+It shows:
+
+- the problem;
+- product thinking;
+- visible workflow;
+- design principles;
+- real application screenshots;
+- outcomes and lessons.
+
+It does not expose credentials, API keys, private vault content, or confidential implementation details.
 
 ---
 
-### One Objective. One Living Note. Always in Control.
+**▶ Watch:** [I Built an AI-Assisted Learning OS in Obsidian | OLE Learning Mode](https://youtu.be/IiiCIhnJFHI)
+
+> **One Objective. One Living System. From Intention to Evidence.**
